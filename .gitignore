@@ -1,0 +1,9 @@
+*~
+.*.swp
+.*.swo
+/src-cov
+/dist
+/build
+/build-cov
+/node_modules
+coverage.html
