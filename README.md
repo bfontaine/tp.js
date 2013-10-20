@@ -7,11 +7,20 @@ tail-recursive functions so they won’t blow up the stack.
 
 ### With Node
 
-TODO
+Install it with `npm`:
+
+    [sudo] npm install [-g] tp
+
+Then use:
+
+    var tp = require('tp');
 
 ### In the browser
 
-TODO
+Include `tp.min.js` in your page, before using it. The file is 0.4kb, and only
+0.2kb gzip'd. You can download it from [GitHub][gh].
+
+[gh]: https://github.com/bfontaine/tp.js/tree/master/build/
 
 ## Usage
 
@@ -88,3 +97,7 @@ until it returns something that’s not a function. So it won’t work if your
 function returns a function, because <i>tp</i> doesn’t know if it has to call this
 function or return it. <i>tp</i> then works as a proxy to your original function,
 handing the annoying stuff.
+
+## Licence
+
+MIT
