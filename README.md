@@ -1,5 +1,7 @@
 # tp.js
 
+[![Build Status](https://travis-ci.org/bfontaine/tp.js.png?branch=master)](https://travis-ci.org/bfontaine/tp.js)
+
 <i><b>tp</b></i> is a lightweight, experimental, library which optimize your
 tail-recursive functions so they won’t blow up the stack.
 
