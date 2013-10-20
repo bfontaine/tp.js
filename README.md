@@ -22,7 +22,7 @@ Then use:
 Include `tp.min.js` in your page, before using it. The file is 0.4kb, and only
 0.2kb gzip'd. You can download it from [GitHub][gh].
 
-[gh]: https://github.com/bfontaine/tp.js/tree/master/build/
+[gh]: https://github.com/bfontaine/tp.js/
 
 ## Usage
 

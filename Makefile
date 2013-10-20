@@ -23,6 +23,9 @@ build: src/$(NAME).js
 	cp src/$(NAME).js $(DESTDIR)/$(NAME).js
 	uglifyjs src/$(NAME).js > $(DESTDIR)/$(NAME).min.js
 
+release: build
+	cp $(DESTDIR)/$(NAME).min.js ./
+
 clear:
 	rm -rf $(DESTDIR)
 	rm -rf $(COVDIR)
