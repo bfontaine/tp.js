@@ -72,7 +72,7 @@ some examples of functions that won’t work:
   tail-recursive
 - `function lX(s, n) { if (n == 0) { return; } console.log(s); lX(s, n-1); }`:
   the recursive call is not used to return something
-- `function a() { return function() {}; }`: <b>tp</b> doesn’t support functions
+- `function a() { return function() {}; }`: <i>tp</i> doesn’t support functions
   that return functions (see below for more explanations).
 
 Please not that <i>tp</i> doesn’t speed up your function, it only prevents it to blow
@@ -101,3 +101,9 @@ handing the annoying stuff.
 ## Licence
 
 MIT
+
+## Changelog
+
+### v0.1.0
+
+- first version
