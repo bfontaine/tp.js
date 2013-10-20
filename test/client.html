@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="language" content="en" />
+    <title>tp client tests</title>
+
+    <link rel="stylesheet" href="../lib/mocha.css" media="all" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="../lib/es5-shim.min.js"></script>
+    <script src="../lib/mocha.js"></script>
+    <script src="../lib/chai.js"></script>
+    <script>
+      mocha.ui( 'bdd' ); 
+      mocha.reporter( 'html' );
+    </script>
+    <script src="../build/tp.js"></script>
+    <script src="test.js"></script>
+    <script>(window.mochaPhantomJS ? mochaPhantomJS : mocha).run();</script> 
+  </body>
+</html>
+

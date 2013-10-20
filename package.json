@@ -1,0 +1,25 @@
+{
+  "name": "tp",
+  "version": "0.1.0",
+  "description": "Optimize tail-recursive functions",
+  "main": "build/tp.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bfontaine/tp.js.git"
+  },
+  "keywords": [
+      "tail-recursive", "functional"
+  ],
+  "author": "Baptiste Fontaine",
+  "license": "MIT",
+  "devDependencies": {
+      "mocha": "*",
+      "chai": "*"
+  }  
+}
