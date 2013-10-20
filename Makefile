@@ -21,7 +21,7 @@ test-all: test test-client test-cov
 build: src/$(NAME).js
 	mkdir -p $(DESTDIR)
 	cp src/$(NAME).js $(DESTDIR)/$(NAME).js
-	uglifyjs src/$(NAME).js > $(DESTDIR)/$(NAME).min.js
+	uglifyjs -m < src/$(NAME).js > $(DESTDIR)/$(NAME).min.js
 
 release: build
 	cp $(DESTDIR)/$(NAME).min.js ./
